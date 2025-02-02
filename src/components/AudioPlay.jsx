@@ -124,7 +124,7 @@ const AudioPlay = () => {
           ? <Mic size={24} color="white" />
           : isLoading
             ? <Loader size={24} />
-            : <MicOff size={24} color="blue" />}
+            : <MicOff size={24} color="green" />}
       </button>
 
       {recognizedText &&
