@@ -1,4 +1,4 @@
-import { supabase } from '../supabaseConfig';
+import { supabase } from '../config/supabaseConfig';
 
 export const setupSupabaseStorage = async () => {
   try {

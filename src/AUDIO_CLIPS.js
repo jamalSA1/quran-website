@@ -1,4 +1,4 @@
-import { supabase } from "./supabaseConfig";
+import { supabase } from "./config/supabaseConfig";
 
 const getAudioUrl = fileName => {
   const { data } = supabase.storage
@@ -235,5 +235,5 @@ export const audioClips = {
   "سورة الفلق": getAudioUrl("0113.mp3"),
   الفلق: getAudioUrl("0113.mp3"),
   "سورة الناس": getAudioUrl("0114.mp3"),
-  الناس: getAudioUrl("0114.mp3"),
+  الناس: getAudioUrl("0114.mp3")
 };
